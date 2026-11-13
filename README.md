@@ -10,8 +10,6 @@ A Claude Code mod that keeps your Claude plan usage limits on screen, right abov
 - The percentage used. Bars turn red at 90%.
 - A countdown to the nearest reset.
 
-<img width="744" height="138" alt="image" src="https://github.com/user-attachments/assets/4c3e83b5-e896-49eb-a632-f4185c517f83" />
-
 The bars stretch with the window width. When the window gets narrow, the decorations hide first, then the reset countdown, so the bars stay readable.
 
 In the Claude desktop app (Code tab) the band is drawn as a single glowing card. In a terminal session it falls back to a plain text grid.
