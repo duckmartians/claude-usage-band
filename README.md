@@ -2,9 +2,7 @@
 
 A Claude Code mod that keeps your Claude plan usage limits on screen, right above the prompt box. No more opening the usage popup to check how much is left.
 
-```
-✦ | 🚀 All models ▬▬▬▬▬▬ 55%  |  👑 Fable ▬▬▬▬▬▬ 81%   ⏰ Resets in 4d 10h  ✦
-```
+![usage-band above the prompt box](assets/band.png)
 
 ## What it shows
 
