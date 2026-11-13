@@ -1,0 +1,6 @@
+{
+  "name": "duckmartians",
+  "owner": { "name": "duckmartians" },
+  "description": "Mods for Claude Code by duckmartians",
+  "plugins": [{ "name": "usage-band", "source": "./" }]
+}
