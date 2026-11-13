@@ -2,7 +2,7 @@
 
 A Claude Code mod that keeps your Claude plan usage limits on screen, right above the prompt box. No more opening the usage popup to check how much is left.
 
-![usage-band above the prompt box](assets/band.png)
+![usage-band above the prompt box](assets/normal.png)
 
 ## What it shows
 
@@ -15,6 +15,26 @@ A Claude Code mod that keeps your Claude plan usage limits on screen, right abov
 The bars stretch with the window width. When the window gets narrow, the decorations hide first, then the reset countdown, so the bars stay readable.
 
 In the Claude desktop app (Code tab) the band is drawn as a single glowing card. In a terminal session it falls back to a plain text grid.
+
+## Screenshots
+
+These are rendered from the mod's own drawing code with sample numbers, shown above the prompt box the way the app places the band.
+
+**Near the limit.** A bar turns red at 90%.
+
+![A limit at 94% shows a red bar](assets/high.png)
+
+**Plan with a 5-hour session limit.** Each limit gets its own bar, and the countdown keeps only the time.
+
+![Three limits: 5 hours, All models and Fable](assets/session.png)
+
+**Narrow window.** The decorations hide first, then the reset countdown, so the bars stay readable.
+
+![The band in a narrow window, without decorations or countdown](assets/narrow.png)
+
+**Terminal session.** A plain text grid with the reset time of each limit, plus the context used and the session length.
+
+![The text version in a terminal](assets/terminal.png)
 
 ## How it works
 

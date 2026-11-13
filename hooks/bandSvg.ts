@@ -70,7 +70,7 @@ export function bandSvg({ rows, pill, W }: BandData): string {
   // Không vẽ nền riêng: card dùng nền của khung app, chỉ giữ viền bo tròn.
   body += `<g clip-path="url(#card)">
     <path d="M${W - 330} ${H} C${W - 250} ${H - 14} ${W - 170} ${H - 4} ${W - 90} ${H - 16} S${W} ${H - 26} ${W} ${H - 26} V${H}Z" fill="url(#wave)"/>
-    <path d="M${W - 260} ${H} C${W - 190} ${H - 12} ${W - 120} ${H} ${W - 40} ${H - 18} V${H}Z" fill="#a78bfa" opacity="0.18"/>
+    <path d="M${W - 260} ${H} C${W - 190} ${H - 12} ${W - 120} ${H} ${W - 40} ${H - 18} S${W} ${H - 24} ${W} ${H - 24} V${H}Z" fill="#a78bfa" opacity="0.18"/>
   </g>`
   body += `<rect x="${M}" y="${M}" width="${W - 2 * M}" height="${H - 2 * M}" rx="10" fill="none" stroke="url(#edge)" stroke-width="3" filter="url(#glow)" opacity="0.6"/>`
   body += `<rect x="${M}" y="${M}" width="${W - 2 * M}" height="${H - 2 * M}" rx="10" fill="none" stroke="url(#edge)" stroke-width="1" opacity="0.85"/>`

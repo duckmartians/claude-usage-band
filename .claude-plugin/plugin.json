@@ -1,6 +1,6 @@
 {
   "name": "usage-band",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Always-visible Claude plan usage limits (weekly, per model, reset countdown) above the prompt box",
   "author": { "name": "duckmartians", "email": "support@duckspace.net", "url": "https://duckspace.net" },
   "homepage": "https://duckspace.net",
